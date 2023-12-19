@@ -48,8 +48,22 @@ body {
     flex: 1;
 }
 
-.img {
+.imgContainer {
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    border: solid;
+}
+
+.imgContainer:hover img{
+    transform: scale(1.1);
+    transition: 1s ease .1s;
+}
+
+.imgContainer img {
     height: 50vh;
+    transform: scale(1);
+    transition: 1s ease;
 }
 
 a {
