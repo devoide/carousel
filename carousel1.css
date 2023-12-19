@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.arrow {
+    border-style: solid;
+    padding: 3px;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+}
+
+.left {
+    transform: rotate(135deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+/*Carousel*/
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carousel {
+    background-color: #092635;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.upperPart {
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+}
+
+.lowerPart {
+    flex: 1;
+}
+
+.img {
+    height: 50vh;
+}
+
+a {
+    border: solid;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red;
+}
